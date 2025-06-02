@@ -1,0 +1,86 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #463e33, #631166);
+  color: rgba(255, 255, 255, 0.849);
+}
+
+header {
+  text-align: center;
+  background-image: url('images/piano.jpg') !important;
+  background-size: cover;
+  background-position: center;
+  color: rgba(255, 255, 255, 0.849);
+  padding: 50px 20px;
+}
+
+header h1, header p {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* 文字に縁取りを追加 */
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;/*これがないと箇条書きの点がはいる*/
+  padding: 0;
+  background-color: #333;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.849);
+  font-size: 18px;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+form label {
+  display: block;
+  margin: 10px 0 5px;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.849);
+  border-radius: 5px;
+}
+
+form button {
+  background-color: #1c566d;
+  color: rgba(255, 255, 255, 0.849);
+  border: none;
+  border-radius: 5px; /* 角を丸める */
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #2f8aae;
+}
+
+footer {
+  text-align: center;
+  padding: 10px 0;
+  background-color: #333;
+  color: rgba(255, 255, 255, 0.849);
+}
